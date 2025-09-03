@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_garnet.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_garnet.mk
 
 COMMON_LUNCH_CHOICES := \
-	aosp_garnet-aosp_current-eng \
-	aosp_garnet-aosp_current-user \
-	aosp_garnet-aosp_current-userdebug
+	lineage_garnet-aosp_current-eng \
+	lineage_garnet-aosp_current-user \
+	lineage_garnet-aosp_current-userdebug
