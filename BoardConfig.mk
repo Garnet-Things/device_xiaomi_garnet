@@ -22,6 +22,8 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 
+BOARD_KERNEL_IMAGE_NAME := kernel
+
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 LOCAL_KERNEL := device/xiaomi/garnet-kernel/kernel
 else
