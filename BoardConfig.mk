@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+include build/make/target/board/BoardConfigMainlineCommon.mk
+
 # Use the non-open-source parts, if they're present
 -include vendor/xiaomi/garnet/BoardConfigVendor.mk
 
