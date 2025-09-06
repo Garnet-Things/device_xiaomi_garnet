@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+GARNET_DEVICE_PATH := device/xiaomi/garnet
+
 include build/make/target/board/BoardConfigMainlineCommon.mk
 
 # Use the non-open-source parts, if they're present
@@ -51,3 +53,6 @@ BOARD_PRODUCTIMAGE_PARTITION_SIZE := 1610612736    # 1.5 GB
 # File System Types
 BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
+
+# Vendor Interface Manifest
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(GARNET_DEVICE_PATH)/garnet/framework_manifest.xml
