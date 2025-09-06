@@ -33,6 +33,11 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 endif
 
+# A/B
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += product
+AB_OTA_PARTITIONS += system_ext
+
 # Dynamic Partitions
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_SUPER_PARTITION_SIZE := 9653190656
