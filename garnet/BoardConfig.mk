@@ -16,25 +16,6 @@
 
 GARNET_DEVICE_PATH := device/xiaomi/garnet
 
-include build/make/target/board/BoardConfigMainlineCommon.mk
-
-# Use the non-open-source parts, if they're present
--include vendor/xiaomi/garnet/BoardConfigVendor.mk
-
-TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-a-branchprot
-TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_ABI2 :=
-TARGET_CPU_VARIANT := generic
-TARGET_CPU_VARIANT_RUNTIME := kryo300
-
-TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-2a
-TARGET_2ND_CPU_ABI := armeabi-v7a
-TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := generic
-TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
-
 BOARD_KERNEL_IMAGE_NAME := kernel
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
@@ -46,13 +27,8 @@ endif
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel
 
-# Partitions
-BOARD_SYSTEM_EXTIMAGE_PARTITION_SIZE := 1073741824 # 1 GB
-BOARD_PRODUCTIMAGE_PARTITION_SIZE := 1610612736    # 1.5 GB
-
-# File System Types
-BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
-
 # Vendor Interface Manifest
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(GARNET_DEVICE_PATH)/garnet/framework_manifest.xml
+
+-include vendor/xiaomi/garnet/BoardConfigVendor.mk
+include $(GARNET_DEVICE_PATH)/BoardConfig-common.mk
