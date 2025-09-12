@@ -1,0 +1,23 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {
+}
+
+package {
+    default_applicable_licenses: ["device_xiaomi_garnet_license"],
+}
+
+license {
+    name: "device_xiaomi_garnet_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
