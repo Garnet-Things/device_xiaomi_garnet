@@ -9,3 +9,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := garnet
 PRODUCT_NAME := lineage_garnet
 PRODUCT_MANUFACTURER := xiaomi
+
+# Inherit Garnet Specifics
+$(call inherit-product, $(GARNET_DEVICE_PATH)/garnet/device.mk)
