@@ -65,3 +65,6 @@ TARGET_PRODUCT_PROP += $(GARNET_DEVICE_PATH)/props/product.prop
 TARGET_ODM_DLKM_PROP += $(GARNET_DEVICE_PATH)/props/odm_dlkm.prop
 TARGET_SYSTEM_EXT_PROP += $(GARNET_DEVICE_PATH)/props/system_ext.prop
 TARGET_VENDOR_DLKM_PROP += $(GARNET_DEVICE_PATH)/props/vendor_dlkm.prop
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(GARNET_DEVICE_PATH)/rootdir/etc/fstab.qcom
