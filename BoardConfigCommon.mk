@@ -22,3 +22,8 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := parrot
+
+# Kernel
+BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_KERNEL_CONFIG := gki_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/garnet
