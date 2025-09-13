@@ -113,3 +113,6 @@ BOARD_AVB_VENDOR_BOOT_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
 # VINTF
 DEVICE_MANIFEST_FILE += $(GARNET_DEVICE_PATH)/hidl/manifest.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(GARNET_DEVICE_PATH)/hidl/framework_manifest.xml
+
+PRODUCT_COPY_FILES += \
+    $(call get-resource-from-kernel,goodix_health.ko):vendor/lib/modules/goodix_health.ko
