@@ -7,3 +7,5 @@
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CONFIG := gki_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/garnet
+
+include $(COMMON_DEVICE_PATH)/BoardConfigCommon.mk
