@@ -6,3 +6,5 @@
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/garnet/device-vendor.mk)
+
+include $(COMMON_DEVICE_PATH)/device-common.mk
