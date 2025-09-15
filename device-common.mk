@@ -11,6 +11,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_DEVICE_PATH) \
-	$(COMMON_DEVICE_PATH)/rootdir
+PRODUCT_SOONG_NAMESPACES += $(COMMON_DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += $(COMMON_DEVICE_PATH)/rootdir
