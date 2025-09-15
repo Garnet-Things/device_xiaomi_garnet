@@ -123,6 +123,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_FSTAB := $(COMMON_DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2025-08-01
+
 # Vendor Interface Manifest
 DEVICE_MANIFEST_FILE := $(COMMON_DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_DEVICE_PATH)/configs/hidl/device_compatibility_matrix.xml
