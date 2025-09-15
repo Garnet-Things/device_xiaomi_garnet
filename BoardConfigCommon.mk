@@ -46,8 +46,10 @@ BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 BOARD_KERNEL_CMDLINE += swinfo.fingerprint=garnet_in:12/OS2.0.202.0.VNRINXM:user
 BOARD_KERNEL_CMDLINE += mtdoops.fingerprint=garnet_in:12/OS2.0.202.0.VNRINXM:user
 
+# DTBO
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_DTBO_CFG := $(COMMON_DEVICE_PATH)/configs/dtboimg.cfg
 
 # Dynamic Partitions
 BOARD_SUPER_PARTITION_SIZE := 9653190656
