@@ -92,6 +92,15 @@ BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
 # Platform
 TARGET_BOARD_PLATFORM := parrot
 
+# Properties
+TARGET_SYSTEM_PROP += $(COMMON_DEVICE_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(COMMON_DEVICE_PATH)/configs/props/vendor.prop
+TARGET_PRODUCT_PROP += $(COMMON_DEVICE_PATH)/configs/props/product.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_DEVICE_PATH)/configs/props/system_ext.prop
+TARGET_ODM_PROP += $(COMMON_DEVICE_PATH)/configs/props/odm.prop
+TARGET_ODM_DLKM_PROP += $(COMMON_DEVICE_PATH)/configs/props/odm_dlkm.prop
+TARGET_VENDOR_DLKM_PROP += $(COMMON_DEVICE_PATH)/configs/props/vendor_dlkm.prop
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
