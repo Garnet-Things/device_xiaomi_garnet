@@ -93,3 +93,9 @@ BOARD_AVB_VENDOR_BOOT_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_DEVICE_PATH)/rootdir/etc/fstab.qcom
+
+# Vendor Interface Manifest
+DEVICE_MANIFEST_FILE := $(COMMON_DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_DEVICE_PATH)/configs/hidl/device_compatibility_matrix.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_DEVICE_PATH)/configs/hidl/framework_manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(COMMON_DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml
