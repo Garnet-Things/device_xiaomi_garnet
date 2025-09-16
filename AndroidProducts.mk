@@ -6,6 +6,7 @@
 
 COMMON_DEVICE_PATH := device/xiaomi/garnet
 GARNET_DEVICE_PATH := $(COMMON_DEVICE_PATH)/garnet
+GARNET_PREBUILT_PATH := device/xiaomi/garnet-prebuilt
 
 PRODUCT_MAKEFILES := \
     $(GARNET_DEVICE_PATH)/lineage_garnet.mk
