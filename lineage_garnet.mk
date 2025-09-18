@@ -26,7 +26,7 @@ PRODUCT_SYSTEM_DEVICE := garnet
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="garnet_global-user 15 AQ3A.240912.001 OS2.0.11.0.VNRMIXM release-keys" \
-    BuildFingerprint=Redmi/garnet_global/garnet:15/AQ3A.240912.001/OS2.0.11.0.VNRMIXM:user/release-keys \
+    BuildFingerprint=google/husky_beta/husky:16/BP41.250822.010/14082742:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
