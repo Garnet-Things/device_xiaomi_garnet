@@ -9,9 +9,9 @@ GARNET_DEVICE_PATH := $(COMMON_DEVICE_PATH)/garnet
 GARNET_PREBUILT_PATH := device/xiaomi/garnet-prebuilt
 
 PRODUCT_MAKEFILES := \
-    $(GARNET_DEVICE_PATH)/lineage_garnet.mk
+    $(GARNET_DEVICE_PATH)/infinity_garnet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_garnet-aosp_current-user \
-    lineage_garnet-aosp_current-userdebug \
-    lineage_garnet-aosp_current-eng
+    infinity_garnet-aosp_current-user \
+    infinity_garnet-aosp_current-userdebug \
+    infinity_garnet-aosp_current-eng
