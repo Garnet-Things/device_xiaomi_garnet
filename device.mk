@@ -153,10 +153,6 @@ PRODUCT_PACKAGES += \
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Euicc
-PRODUCT_PACKAGES += \
-    XiaomiEuicc
-
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
