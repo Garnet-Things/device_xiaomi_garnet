@@ -4,8 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+COMMON_PATH := device/xiaomi/garnet
+GARNET_PATH := device/xiaomi/garnet/garnet
+
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_garnet.mk
+    $(GARNET_PATH)/lineage_garnet.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_garnet-aosp_current-user \
