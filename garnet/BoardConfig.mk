@@ -5,3 +5,6 @@
 #
 
 include $(COMMON_PATH)/BoardConfigCommon.mk
+
+# Inherit the proprietary files
+include vendor/xiaomi/garnet/BoardConfigVendor.mk
