@@ -1,0 +1,1 @@
+# AOSP Device Tree - Redmi Note 13 Pro 5G
