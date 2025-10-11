@@ -33,19 +33,6 @@ on early-init
     write /proc/sys/kernel/kptr_restrict 2
     start qti-debug-early-debug
 
-service qti-debug-early-debug /vendor/bin/sh /vendor/bin/init.qti.kernel.early_debug.sh
-    class core
-    user root
-    oneshot
-    seclabel u:r:vendor-qti-testscripts:s0
-
-# Coresight early boot service
-service qti-debug-early-boot /vendor/bin/sh /vendor/bin/init.qti.kernel.debug.sh
-    class core
-    user root
-    oneshot
-    seclabel u:r:vendor-qti-testscripts:s0
-
 on property:vendor.all.modules.ready=1
     start qti-debug-early-boot
 

@@ -69,12 +69,6 @@ on post-fs
     write /sys/block/dm-1/queue/read_ahead_kb 2048
     write /sys/block/dm-2/queue/read_ahead_kb 2048
 
-on early-boot
-    # Allow subsystem (modem etc) debugging
-    exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/kernel/boot_adsp/boot 1
-    exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/kernel/boot_cdsp/boot 1
-    exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/devices/virtual/cvp/cvp/boot 1
-
 on boot
     # Set the console loglevel to < KERN_WARN
     # Set the default message loglevel to KERN_INFO
@@ -149,20 +143,6 @@ on property:persist.vendor.sys.rawdump_copy=1
 on property:persist.vendor.sys.rawdump_copy=0
     write /sys/kernel/dload/emmc_dload 0
 
-service kernel-boot /vendor/bin/sh /vendor/bin/init.qti.kernel.sh
-    class core
-    user root
-    group root
-    disabled
-    oneshot
-
-service kernel-post-boot /vendor/bin/sh /vendor/bin/init.kernel.post_boot.sh
-    class core
-    user root
-    group root system wakelock graphics
-    disabled
-    oneshot
-
 on property:sys.boot_completed=1
     write /dev/kmsg "Boot completed "
     #Reset read ahead for dm-0, dm-1 and dm-2 to 512kb
@@ -180,12 +160,3 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     user root
     group root
     disabled
-
-service vendor.modprobe /vendor/bin/vendor_modprobe.sh
-    class main
-    user root
-    group root system
-    disabled
-    stdio_to_kmsg
-    seclabel u:r:vendor_modprobe:s0
-    oneshot

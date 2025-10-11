@@ -64,40 +64,16 @@ PRODUCT_PACKAGES += \
     elliptic_uscal.sh \
     elliptic_uscal_v2.sh \
     headset_detect.sh \
-    init.class_main.sh \
-    init.crda.sh \
-    init.kernel.post_boot-parrot.sh \
     init.kernel.post_boot-ravelin.sh \
-    init.kernel.post_boot.sh \
-    init.mdm.sh \
-    init.qcom.class_core.sh \
-    init.qcom.coex.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.efs.sync.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sdio.sh \
-    init.qcom.sensors.sh \
-    init.qcom.sh \
     init.qcom.usb.sh \
     init.qti.display_boot.sh \
-    init.qti.kernel.debug-parrot.sh \
     init.qti.kernel.debug-ravelin.sh \
-    init.qti.kernel.debug.sh \
-    init.qti.kernel.early_debug-parrot.sh \
-    init.qti.kernel.early_debug.sh \
-    init.qti.kernel.sh \
-    init.qti.media.sh \
-    init.qti.qcv.sh \
-    init.qti.touch_boot.sh \
-    init.qti.write.sh \
     playback_headset.sh \
-    qca6234-service.sh \
     setup_rcv2backmic.sh \
     setup_rcv2mainmic.sh \
     setup_rcv2topmic.sh \
     spk_dsm_test.sh \
-    us_cal.sh \
-    vendor_modprobe.sh
+    us_cal.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
