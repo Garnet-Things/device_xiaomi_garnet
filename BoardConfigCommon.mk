@@ -4,6 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# A/B
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    odm \
+    system \
+    product \
+    vendor_dlkm \
+    system_ext \
+    vendor
+BOARD_USES_RECOVERY_AS_BOOT := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
