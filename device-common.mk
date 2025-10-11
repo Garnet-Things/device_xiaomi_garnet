@@ -114,3 +114,6 @@ PRODUCT_PACKAGES += \
     init.recovery.hardware.rc \
     init.recovery.qcom.rc \
     miui.factoryreset.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.qcom
