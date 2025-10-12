@@ -77,21 +77,15 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.batterysecret.rc \
-    init.mi_thermald.rc \
-    init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
-    init.qti.kernel.rc \
-    init.qti.kernel.test.rc \
-    init.qti.ufs.rc \
     init.target.rc \
     init.recovery.hardware.rc \
     init.recovery.qcom.rc \
     miui.factoryreset.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.qcom
+    $(COMMON_PATH)/rootdir/etc/fstab.qcom:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.qcom
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -27,9 +27,6 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import /vendor/etc/init/hw/init.qti.kernel.rc
-import /vendor/etc/init/hw/init.mi_thermald.rc
-import /vendor/etc/init/hw/init.batterysecret.rc
 import /system/etc/init/init.factory.rc
 import /vendor/etc/init/init.charge_logger.rc
 
