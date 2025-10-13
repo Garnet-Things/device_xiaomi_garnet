@@ -94,8 +94,8 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # ANT
-lib/com.dsi.ant@1.0.so
-lib64/com.dsi.ant@1.0.so
+# lib/com.dsi.ant@1.0.so
+# lib64/com.dsi.ant@1.0.so
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.dsi.ant@1.0-impl.so
@@ -284,7 +284,7 @@ vendor/lib64/libqti_vndfwk_detect_vendor.so
 vendor/lib64/libsoc_helper.so
 
 # Bluetooth (A2DP)
-lib64/vendor.qti.hardware.bluetooth.audio-V1-ndk.so
+# lib64/vendor.qti.hardware.bluetooth.audio-V1-ndk.so
 system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so
@@ -1251,8 +1251,8 @@ vendor/lib64/vendor.xiaomi.cit.bluetooth@1.0.so
 vendor/lib64/vendor.xiaomi.cit.wifi@1.0.so
 
 # CNE
-lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
-lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
+# lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
+# lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
 system_ext/lib/com.quicinc.cne.api@1.0.so
 system_ext/lib/com.quicinc.cne.api@1.1.so
 system_ext/lib/com.quicinc.cne.constants@1.0.so
@@ -1505,30 +1505,30 @@ vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
 # Display
-lib/vendor.qti.hardware.display.config-V1-ndk.so
-lib/vendor.qti.hardware.display.config-V10-ndk.so
-lib/vendor.qti.hardware.display.config-V11-ndk.so
-lib/vendor.qti.hardware.display.config-V12-ndk.so
-lib/vendor.qti.hardware.display.config-V2-ndk.so
-lib/vendor.qti.hardware.display.config-V3-ndk.so
-lib/vendor.qti.hardware.display.config-V4-ndk.so
-lib/vendor.qti.hardware.display.config-V5-ndk.so
-lib/vendor.qti.hardware.display.config-V6-ndk.so
-lib/vendor.qti.hardware.display.config-V7-ndk.so
-lib/vendor.qti.hardware.display.config-V8-ndk.so
-lib/vendor.qti.hardware.display.config-V9-ndk.so
-lib64/vendor.qti.hardware.display.config-V1-ndk.so
-lib64/vendor.qti.hardware.display.config-V10-ndk.so
-lib64/vendor.qti.hardware.display.config-V11-ndk.so
-lib64/vendor.qti.hardware.display.config-V12-ndk.so
-lib64/vendor.qti.hardware.display.config-V2-ndk.so
-lib64/vendor.qti.hardware.display.config-V3-ndk.so
-lib64/vendor.qti.hardware.display.config-V4-ndk.so
-lib64/vendor.qti.hardware.display.config-V5-ndk.so
-lib64/vendor.qti.hardware.display.config-V6-ndk.so
-lib64/vendor.qti.hardware.display.config-V7-ndk.so
-lib64/vendor.qti.hardware.display.config-V8-ndk.so
-lib64/vendor.qti.hardware.display.config-V9-ndk.so
+# lib/vendor.qti.hardware.display.config-V1-ndk.so
+# lib/vendor.qti.hardware.display.config-V10-ndk.so
+# lib/vendor.qti.hardware.display.config-V11-ndk.so
+# lib/vendor.qti.hardware.display.config-V12-ndk.so
+# lib/vendor.qti.hardware.display.config-V2-ndk.so
+# lib/vendor.qti.hardware.display.config-V3-ndk.so
+# lib/vendor.qti.hardware.display.config-V4-ndk.so
+# lib/vendor.qti.hardware.display.config-V5-ndk.so
+# lib/vendor.qti.hardware.display.config-V6-ndk.so
+# lib/vendor.qti.hardware.display.config-V7-ndk.so
+# lib/vendor.qti.hardware.display.config-V8-ndk.so
+# lib/vendor.qti.hardware.display.config-V9-ndk.so
+# lib64/vendor.qti.hardware.display.config-V1-ndk.so
+# lib64/vendor.qti.hardware.display.config-V10-ndk.so
+# lib64/vendor.qti.hardware.display.config-V11-ndk.so
+# lib64/vendor.qti.hardware.display.config-V12-ndk.so
+# lib64/vendor.qti.hardware.display.config-V2-ndk.so
+# lib64/vendor.qti.hardware.display.config-V3-ndk.so
+# lib64/vendor.qti.hardware.display.config-V4-ndk.so
+# lib64/vendor.qti.hardware.display.config-V5-ndk.so
+# lib64/vendor.qti.hardware.display.config-V6-ndk.so
+# lib64/vendor.qti.hardware.display.config-V7-ndk.so
+# lib64/vendor.qti.hardware.display.config-V8-ndk.so
+# lib64/vendor.qti.hardware.display.config-V9-ndk.so
 system_ext/lib/vendor.display.color@1.0.so
 system_ext/lib/vendor.display.color@1.1.so
 system_ext/lib/vendor.display.color@1.2.so
@@ -1832,8 +1832,8 @@ vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
 # DPM
-lib/vendor.qti.diaghal-V1-ndk.so
-lib64/vendor.qti.diaghal-V1-ndk.so
+# lib/vendor.qti.diaghal-V1-ndk.so
+# lib64/vendor.qti.diaghal-V1-ndk.so
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -1966,8 +1966,8 @@ system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
 # FM
-lib/vendor.qti.hardware.fm-V1-ndk.so
-lib64/vendor.qti.hardware.fm-V1-ndk.so
+# lib/vendor.qti.hardware.fm-V1-ndk.so
+# lib64/vendor.qti.hardware.fm-V1-ndk.so
 system_ext/lib/vendor.qti.hardware.fm@1.0.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
@@ -2114,22 +2114,22 @@ vendor/lib64/hw/local_time.default.so
 
 # Media
 etc/seccomp_policy/mediacodec.policy
-lib/graphicbuffersource-aidl-ndk.so
-lib/libmedia_codeclist.so
-lib/libstagefright_aidl_bufferpool2.so
-lib/libstagefright_bufferpool@2.0.1.so
-lib/libstagefright_codecbase.so
-lib/libstagefright_framecapture_utils.so
-lib/libstagefright_graphicbuffersource_aidl.so
-lib/libstagefright_surface_utils.so
-lib64/graphicbuffersource-aidl-ndk.so
-lib64/libmedia_codeclist.so
-lib64/libstagefright_aidl_bufferpool2.so
-lib64/libstagefright_bufferpool@2.0.1.so
-lib64/libstagefright_codecbase.so
-lib64/libstagefright_framecapture_utils.so
-lib64/libstagefright_graphicbuffersource_aidl.so
-lib64/libstagefright_surface_utils.so
+# lib/graphicbuffersource-aidl-ndk.so
+# lib/libmedia_codeclist.so
+# lib/libstagefright_aidl_bufferpool2.so
+# lib/libstagefright_bufferpool@2.0.1.so
+# lib/libstagefright_codecbase.so
+# lib/libstagefright_framecapture_utils.so
+# lib/libstagefright_graphicbuffersource_aidl.so
+# lib/libstagefright_surface_utils.so
+# lib64/graphicbuffersource-aidl-ndk.so
+# lib64/libmedia_codeclist.so
+# lib64/libstagefright_aidl_bufferpool2.so
+# lib64/libstagefright_bufferpool@2.0.1.so
+# lib64/libstagefright_codecbase.so
+# lib64/libstagefright_framecapture_utils.so
+# lib64/libstagefright_graphicbuffersource_aidl.so
+# lib64/libstagefright_surface_utils.so
 system_ext/lib/vendor.qti.hardware.qconfig-V3-ndk.so
 system_ext/lib/vendor.qti.hardware.vpp@1.1.so
 system_ext/lib64/vendor.qti.hardware.qconfig-V3-ndk.so
@@ -2178,8 +2178,8 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 
 # Media (Dolby)
-lib/vendor.dolby.hardware.dms@2.0.so
-lib64/vendor.dolby.hardware.dms@2.0.so
+# lib/vendor.dolby.hardware.dms@2.0.so
+# lib64/vendor.dolby.hardware.dms@2.0.so
 system_ext/lib/libdolbyeffect.so
 system_ext/lib64/libdolbyeffect.so
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
