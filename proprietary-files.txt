@@ -3607,8 +3607,8 @@ vendor/bin/audio-factory-test
 vendor/bin/audioadsprpcd
 vendor/bin/audioflacapp
 vendor/bin/aw_ar_get_te
-vendor/bin/boringssl_self_test32
-vendor/bin/boringssl_self_test64
+# vendor/bin/boringssl_self_test32
+# vendor/bin/boringssl_self_test64
 vendor/bin/btconfig
 vendor/bin/charge_logger
 # vendor/bin/checkpoint_gc
