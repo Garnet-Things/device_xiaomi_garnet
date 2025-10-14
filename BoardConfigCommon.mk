@@ -92,6 +92,9 @@ BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 # Platform
 TARGET_BOARD_PLATFORM := parrot
 
+# Hardware
+BOARD_USES_QCOM_HARDWARE := true
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/props/odm.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/props/system.prop
