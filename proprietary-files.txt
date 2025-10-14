@@ -594,41 +594,41 @@ vendor/lib64/camera/com.qti.sensor.garnet_sunny_ov02b10_macro_i.so
 vendor/lib64/camera/com.qti.sensor.garnet_sunny_ov16a1q_front_i.so
 vendor/lib64/camera/com.qti.sensor.garnet_sunny_s5k3p9sp04_front_iii.so
 vendor/lib64/camera/com.qti.sensor.garnet_sunny_s5khp3_wide_i.so
-vendor/lib64/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin
-vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin
-vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin
-vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin
-vendor/lib64/camera/fdconfigpreview.bin
-vendor/lib64/camera/fdconfigpreviewlite.bin
-vendor/lib64/camera/fdconfigvideo.bin
-vendor/lib64/camera/fdconfigvideolite.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin
+# vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin
+# vendor/lib64/camera/com.qti.tuned.default.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin
+# vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin
+# vendor/lib64/camera/fdconfigpreview.bin
+# vendor/lib64/camera/fdconfigpreviewlite.bin
+# vendor/lib64/camera/fdconfigvideo.bin
+# vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
