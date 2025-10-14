@@ -1544,7 +1544,7 @@ vendor/firmware/evass.mdt
 # system_ext/lib/vendor.qti.hardware.display.composer@3.0.so
 # system_ext/lib/vendor.qti.hardware.display.composer@3.1.so
 # system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-system_ext/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
+# system_ext/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 # system_ext/lib64/vendor.display.color@1.0.so
 # system_ext/lib64/vendor.display.color@1.1.so
 # system_ext/lib64/vendor.display.color@1.2.so
@@ -1560,7 +1560,7 @@ system_ext/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 # system_ext/lib64/vendor.qti.hardware.display.composer@3.0.so
 # system_ext/lib64/vendor.qti.hardware.display.composer@3.1.so
 # system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-system_ext/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+# system_ext/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/hw/vendor.qti.hardware.display.allocator-service
 vendor/bin/hw/vendor.qti.hardware.display.composer-service
