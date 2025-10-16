@@ -5,7 +5,6 @@
 #
 
 GARNET_KERNEL_DIR := kernel/xiaomi/sm7435
-GARNET_EXT_MODULES_DIR := kernel/xiaomi/sm7435-modules
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
@@ -67,9 +66,6 @@ GARNET_FINGERPRINT := Xiaomi/garnet/garnet:14/OS2.0.10.0.VNRMIXM:user/release-ke
 
 BOARD_KERNEL_CMDLINE += swinfo.fingerprint=$(GARNET_FINGERPRINT)
 BOARD_KERNEL_CMDLINE += mtdoops.fingerprint=$(GARNET_FINGERPRINT)
-
-# Kernel External Modules
-TARGET_KERNEL_EXT_MODULE_ROOT := $(GARNET_EXT_MODULES_DIR)
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
