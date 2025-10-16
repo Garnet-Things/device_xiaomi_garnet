@@ -73,6 +73,12 @@ GARNET_FINGERPRINT := Xiaomi/garnet/garnet:14/OS2.0.10.0.VNRMIXM:user/release-ke
 BOARD_KERNEL_CMDLINE += swinfo.fingerprint=$(GARNET_FINGERPRINT)
 BOARD_KERNEL_CMDLINE += mtdoops.fingerprint=$(GARNET_FINGERPRINT)
 
+# Ramdisk Module
+BOARD_RAMDISK_USE_LZ4 := true
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules/modules.load))
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules/modules.load.recovery))
+BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD)
+
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
