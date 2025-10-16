@@ -111,3 +111,8 @@ prebuilt_etc {
     src: "etc/fstab.qcom",
     vendor: true,
 }
+
+prebuilt_root {
+    name: "miui.factoryreset.rc",
+    src: "etc/miui.factoryreset.rc",
+}
