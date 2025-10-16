@@ -43,6 +43,9 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := parrot
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
+
 # Hardware
 BOARD_USES_QCOM_HARDWARE := true
 
