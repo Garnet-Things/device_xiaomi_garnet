@@ -5,6 +5,7 @@
 #
 
 GARNET_KERNEL_DIR := kernel/xiaomi/sm7435
+GARNET_EXT_MODULES_DIR := kernel/xiaomi/sm7435-modules
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
@@ -81,6 +82,27 @@ GARNET_FINGERPRINT := Xiaomi/garnet/garnet:14/OS2.0.10.0.VNRMIXM:user/release-ke
 
 BOARD_KERNEL_CMDLINE += swinfo.fingerprint=$(GARNET_FINGERPRINT)
 BOARD_KERNEL_CMDLINE += mtdoops.fingerprint=$(GARNET_FINGERPRINT)
+
+# Kernel modules
+TARGET_KERNEL_EXT_MODULE_ROOT := $(GARNET_EXT_MODULES_DIR)
+TARGET_KERNEL_EXT_MODULES := \
+	qcom/opensource/cvp-kernel \
+	qcom/opensource/eva-kernel \
+	qcom/opensource/mmrm-driver \
+	qcom/opensource/video-driver \
+	qcom/opensource/audio-kernel \
+	qcom/opensource/camera-kernel \
+	qcom/opensource/datarmnet/core \
+	qcom/opensource/datarmnet-ext/aps \
+	qcom/opensource/datarmnet-ext/sch \
+	qcom/opensource/datarmnet-ext/shs \
+	qcom/opensource/datarmnet-ext/wlan \
+	qcom/opensource/datarmnet-ext/perf \
+	qcom/opensource/display-drivers/msm \
+	qcom/opensource/datarmnet-ext/offload \
+	qcom/opensource/wlan/qcacld-3.0/.adrastea \
+	qcom/opensource/datarmnet-ext/perf_tether \
+	qcom/opensource/dataipa/drivers/platform/msm \
 
 # Ramdisk Module
 BOARD_RAMDISK_USE_LZ4 := true
