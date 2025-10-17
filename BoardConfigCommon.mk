@@ -41,6 +41,18 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Audio
+AUDIO_FEATURE_ENABLED_DLKM := true
+AUDIO_FEATURE_ENABLED_DTS_EAGLE := false
+AUDIO_FEATURE_ENABLED_GEF_SUPPORT := true
+AUDIO_FEATURE_ENABLED_HW_ACCELERATED_EFFECTS := false
+AUDIO_FEATURE_ENABLED_INSTANCE_ID := true
+AUDIO_FEATURE_ENABLED_PAL_HIDL := true
+AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
+
+TARGET_USES_QCOM_MM_AUDIO := false
+TARGET_PROVIDES_AUDIO_HAL = true
+
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := parrot
@@ -84,25 +96,25 @@ BOARD_KERNEL_CMDLINE += swinfo.fingerprint=$(GARNET_FINGERPRINT)
 BOARD_KERNEL_CMDLINE += mtdoops.fingerprint=$(GARNET_FINGERPRINT)
 
 # Kernel modules
-TARGET_KERNEL_EXT_MODULE_ROOT := $(GARNET_EXT_MODULES_DIR)
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/xiaomi/sm7435-modules
 TARGET_KERNEL_EXT_MODULES := \
-	qcom/opensource/cvp-kernel \
-	qcom/opensource/eva-kernel \
 	qcom/opensource/mmrm-driver \
-	qcom/opensource/video-driver \
 	qcom/opensource/audio-kernel \
 	qcom/opensource/camera-kernel \
+	qcom/opensource/cvp-kernel \
+	qcom/opensource/dataipa/drivers/platform/msm \
 	qcom/opensource/datarmnet/core \
 	qcom/opensource/datarmnet-ext/aps \
-	qcom/opensource/datarmnet-ext/sch \
-	qcom/opensource/datarmnet-ext/shs \
-	qcom/opensource/datarmnet-ext/wlan \
-	qcom/opensource/datarmnet-ext/perf \
-	qcom/opensource/display-drivers/msm \
 	qcom/opensource/datarmnet-ext/offload \
-	qcom/opensource/wlan/qcacld-3.0/.adrastea \
+	qcom/opensource/datarmnet-ext/shs \
+	qcom/opensource/datarmnet-ext/perf \
 	qcom/opensource/datarmnet-ext/perf_tether \
-	qcom/opensource/dataipa/drivers/platform/msm \
+	qcom/opensource/datarmnet-ext/sch \
+	qcom/opensource/datarmnet-ext/wlan \
+	qcom/opensource/display-drivers/msm \
+	qcom/opensource/eva-kernel \
+	qcom/opensource/video-driver \
+	qcom/opensource/wlan/qcacld-3.0/.adrastea
 
 # Ramdisk Module
 BOARD_RAMDISK_USE_LZ4 := true
