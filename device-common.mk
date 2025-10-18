@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/keylayout/garnet.kl:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/usr/keylayout/garnet.kl
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
