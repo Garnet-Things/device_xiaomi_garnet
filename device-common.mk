@@ -96,5 +96,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
     $(COMMON_PATH)/rootdir
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservice \
+    vndservicemanager
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/garnet/garnet-vendor.mk)
