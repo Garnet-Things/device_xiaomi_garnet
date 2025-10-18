@@ -43,6 +43,11 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    vendor.qti.hardware.display.allocator-service
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
