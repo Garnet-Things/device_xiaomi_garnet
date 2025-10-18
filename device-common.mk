@@ -74,6 +74,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# QMI
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti_vendor
+
 # Rootdir
 PRODUCT_PACKAGES += \
     audio_jack_status.sh \
