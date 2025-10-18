@@ -106,7 +106,12 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
-    $(COMMON_PATH)/rootdir
+    $(COMMON_PATH)/rootdir \
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/qcom-caf/common/libqti-perfd-client \
+    hardware/xiaomi
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
